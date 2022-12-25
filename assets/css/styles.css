@@ -1,0 +1,21 @@
+.intro-content{
+    position: relative;
+    top: -1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.intro-text-content, .intro-img, .intro-img svg{
+    display: flex;
+    flex-flow: column wrap ;
+    justify-content: center;
+    
+}
+
+.intro-img img {
+    max-width: 100%;
+    height: auto;
+}
